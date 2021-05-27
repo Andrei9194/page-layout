@@ -261,3 +261,147 @@ body {
     font-size: 72px;
     padding-left: 50px;
 }
+
+.section-gallery {
+    background: rgba(254, 233, 46, 255);
+}
+
+.section-gallery .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-gallery-content {
+    max-width: 450px;
+    text-align: center;
+}
+
+.secton-gallery-title {
+    font-size: 54px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.section-gallery-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.section-gallery-block-images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-first-image,
+.gallery-second-image,
+.gallery-third-image,
+.gallery-fourth-image,
+.gallery-fifth-image {
+    max-height: 100%;
+    max-width: 100%;
+    transition: 1s;
+}
+
+.gallery-first-image:hover,
+.gallery-second-image:hover,
+.gallery-third-image:hover,
+.gallery-fourth-image:hover,
+.gallery-fifth-image:hover {
+    transform: scale(1.1);
+}
+
+.gallery-first-image {
+    grid-area: 1/1/5/5;
+}
+
+.gallery-second-image {
+    grid-area: 1/5/3/7;
+}
+
+.gallery-third-image {
+    grid-area: 3/5/5/7;
+}
+
+.gallery-fourth-image {
+    grid-area: 5/1/8/4;
+}
+
+.gallery-fifth-image {
+    grid-area: 5/4/8/7;
+}
+
+.section-gallery-button {
+    color: white;
+    text-transform: uppercase;
+    background: #5685a3;
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: none;
+}
+
+.section-gallery-button:hover {
+    background: #456A82;
+}
+
+.section-subscribe {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-subscribe .container {
+    height: 400px;
+    background: url(images/background4.png) no-repeat right center rgba(255, 255, 255, 255);
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.section-subscribe-position-content {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.section-subscribe-content {
+    width: 520px;
+}
+
+.section-subscribe-text {
+    line-height: 1.5;
+}
+
+.section-subscribe-title {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.section-subscribe-block {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-subscribe-button {
+    background: #97ba2c;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border: none;
+}
+
+.section-subscribe-button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.section-subscribe-input {
+    height: 50px;
+    opacity: 0.5;
+    padding-left: 10px;
+    width: 520px;
+    border: black solid 1px;
+}
