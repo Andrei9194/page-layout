@@ -1,4 +1,10 @@
-body, h1, h2, p, address, a, button {
+body,
+h1,
+h2,
+p,
+address,
+a,
+button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: geometricPrecision;
@@ -7,6 +13,11 @@ body, h1, h2, p, address, a, button {
 body {
     font-family: Raleway, sans-serif;
     background: url(images/background1.png) no-repeat top center #f9f8fb;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -19,7 +30,8 @@ body {
     padding-top: 45px;
 }
 
-.site-header .container {
+.site-header .container,
+.section-about .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -135,7 +147,9 @@ body {
     height: 90px;
 }
 
-.site-footer .footer-author, .site-footer .footer-copyright, .site-footer .footer-logo {
+.site-footer .footer-author,
+.site-footer .footer-copyright,
+.site-footer .footer-logo {
     margin: 0;
     flex: 1;
 }
@@ -156,4 +170,94 @@ body {
 
 .site-footer .footer-author strong {
     color: #ff6033;
+}
+
+.section-about {
+    background-color: rgba(0, 176, 176, 255);
+    margin: 0 auto;
+    min-height: 550px;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+}
+
+.section-about .container {
+    max-width: 100%;
+    background: url(./images/background2.png) center left no-repeat;
+    background-size: 450px;
+    flex-direction: row-reverse;
+    background-position: 20% 75%;
+}
+
+.section-about-content {
+    max-width: 480px;
+    color: white;
+    margin-right: 150px;
+}
+
+.section-about-title {
+    font-size: 72px;
+    margin: 0;
+}
+
+.section-about-text {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-services {
+    min-height: 700px;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    background-color: rgba(112, 192, 255, 255);
+}
+
+.section-services .container {
+    background: url(./images/background3.png) no-repeat center right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secton-services-link {
+    background-color: white;
+    width: 310px;
+    height: 80px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    transition: 1s;
+}
+
+.secton-services-link:hover {
+    box-shadow: 5px 5px 20px #5692c4;
+    transform: scale(1.1);
+}
+
+.section-services-text {
+    width: 210px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+}
+
+.secton-services-links-images {
+    align-self: center;
+    margin: auto;
+    width: 30px;
+    padding: 10px;
+}
+
+.vl {
+    border-left: 1px solid black;
+}
+
+.secton-sevices-title {
+    color: white;
+    font-size: 72px;
+    padding-left: 50px;
 }
