@@ -405,3 +405,223 @@ body {
     width: 520px;
     border: black solid 1px;
 }
+
+.section-blog {
+    background: #b07cf8;
+    max-height: 700px;
+}
+
+.section-blog .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-blog-content {
+    margin: 0 auto;
+    color: white;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-blog-title {
+    font-size: 68px;
+    margin: 0;
+}
+
+.section-blog-text {
+    text-align: center;
+}
+
+.section-blog-block {
+    margin: 10px 0 25px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-blog-one,
+.section-blog-two,
+.section-blog-three {
+    width: 300px;
+    height: 250px;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-blog-one:hover,
+.section-blog-two:hover,
+.section-blog-three:hover {
+    transform: scale(1.1);
+}
+
+.section-blog-one {
+    background: url(./images/blog-galery/background1.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    transition: 1s;
+}
+
+.section-blog-two {
+    background: url(./images/blog-galery/background\ 2.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.section-blog-three {
+    background: url(./images/blog-galery/background\ 3.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.block-content-one {
+    background-color: #565d65;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    margin: 15px 15px;
+}
+
+.section-blog-block-title {
+    text-align: center;
+    align-self: center;
+    margin: 0;
+}
+
+.section-blog-block-text {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.block-content-two {
+    margin-left: 10px;
+}
+
+.section-blog-block-text-two {
+    font-size: 12px;
+}
+
+.section-blog-button {
+    background-color: #f82b3c;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+.section-blog-button:hover {
+    opacity: 1;
+    box-shadow: 1px 1px 10px #f82b3c;
+}
+
+.section-contact {
+    height: 900px;
+}
+
+.section-contact .container {
+    max-width: 100%;
+    height: 800px;
+    background: url(./images/background5.jpg) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.section-contact-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-contact-content {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+.section-contact-title {
+    font-size: 72px;
+    margin: 0;
+}
+
+.section-contact-text {
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.section-contact-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section-contact-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.section-contact-input {
+    margin-bottom: 5px;
+    background: #00c4c3;
+    opacity: 0.5;
+    width: 350px;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 10px;
+}
+
+.section-contact-input:hover {
+    opacity: 1;
+    border-left: 3px solid #345b82;
+}
+
+.section-contact-button-send {
+    background: #3477ac;
+    opacity: 0.5;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.section-contact-button-send:hover {
+    opacity: 1;
+}
+
+.section-contant-addres {
+    margin-right: 120px;
+    line-height: 1;
+}
+
+.section-contact-addres-title {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section-contact-addres-text {
+    margin-top: 0;
+}
